@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="andre_crud::core" title="Crud" module="Andre_Crud" sortOrder="90" resource="Andre_Crud::sample"/>
+        <add id="andre_crud::test" title="Items" module="Andre_Crud" sortOrder="10" parent="andre_crud::core" action="andre_crud/items/" resource="Andre_Crud::items"/>
+    </menu>
+</config>
